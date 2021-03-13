@@ -38,7 +38,6 @@ function get_rows(){
         var novaLinha = tbodyObj.insertRow(-1);
         var novaCelula = novaLinha.insertCell();
         var corFonte = get_color();
-        //var legenda = aluno.replace(/_/g, " ");
         novaCelula.innerHTML= `
             <a href='imagens/grandes/${aluno}.jpg' target='_blank'>
                 <img src='imagens/pequenas/${aluno}.jpg' alt='Missing image'>  
